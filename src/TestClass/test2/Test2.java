@@ -8,5 +8,10 @@ public class Test2 {
         Sportsman Bob=new Sportsman("Bob");
         Bob.setName("Bob");
         Bob.displayInfo();
+        System.out.println(Bob.getId());
+        Sportsman Leonard=new Sportsman("Leonard");
+        System.out.println(Leonard.getId());
+        Leonard.say();
     }
+
 }

@@ -22,4 +22,9 @@ public class Sportsman extends Person {
         super.displayInfo();
         System.out.println("Speed - "+ speedRunning ); ;
     }
+    @Override
+    public void say(){
+        super.say();
+        System.out.println("Hello, I`m Sportsman");
+    }
 }
